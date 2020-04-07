@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tic-Tac-Toe</title>
+
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+  <script>
+    $('h1').eq(0).keypress(function (event){
+      $('h1').text("helll")
+    });
+</script>
+    <style media="screen">
+      td{
+        height: 150px;
+        width: 150px;
+        text-align: center;
+        border: 5px solid black;
+        font-size: 100px;
+      }
+      .res{
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+      }
+    </style>
+  </head>
+  <body style="background:indianred">
+
+    <div class="container">
+      <div class="jumbotron" style="padding-top:5px;padding-bottom:5px;">
+          <h1>Welcome! to Tic Tac Toe.</h1>
+          <!-- <div id="results" align='right'>
+            <p class="res">player 1: 0<br>
+            player 2: 0</p>
+          </div> -->
+          <button id='register' class="btn btn-primary btn-lg" type="button" name="button">Register</button>
+          <button id='reset' class="btn btn-primary btn-lg" type="button" name="button">Reset</button>
+          <a href="https://www.google.com/">google</a>
+
+
+      </div>
+
+      <h2 id="chanceinfo" align="center"></h2>
+      <table align="center" style="background:white">
+        <tr>
+          <td></td><td></td><td></td>
+        </tr>
+        <tr>
+          <td></td><td></td><td></td>
+        </tr>
+        <tr>
+          <td></td><td></td><td></td>
+        </tr>
+      </table>
+
+    </div>
+
+
+
+
+
+
+
+  <script src="script_tic.js"></script>
+  
+  </body>
+</html>
